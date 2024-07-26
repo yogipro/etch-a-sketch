@@ -1,4 +1,4 @@
-const MAX_ROUND_NUMBER = 5;
+
 
 
 function App(){
