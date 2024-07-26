@@ -3,15 +3,15 @@
 
 function App(){
     
-    
+    const [strokeSize,setStrokeSize] = useState(10);
 
     const COMPONENTS = {
-      
+      Editor:new Editor()
     }     
 
 
     this.render = function(){
-        return "hello World!"
+        return COMPONENTS.Editor.render({strokeSize});
     }
 }
 
